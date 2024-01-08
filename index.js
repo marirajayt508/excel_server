@@ -24,10 +24,10 @@ app.post('/download', (req, res) => {
   const data = req.body.datas
 // console.log(data)
   const columns = [
-    { header: 'Supplier Name', key: 'sn', width: 25 },
     { header: 'GSTIN of Supplier', key: 'gstin', width: 25 },
     { header: 'Invoice Number', key: 'inv', width: 20 },
     { header: 'Invoice date', key: 'ind', width: 15 },
+    { header: 'Supplier Name', key: 'sn', width: 25 },
     { header: 'Invoice Value', key: 'invoiceNo', width: 15 },
     { header: 'Place Of Supply', key: 'pos', width: 15 },
     { header: 'Reverse Charge', key: 'rc', width: 15, dataValidation : {
