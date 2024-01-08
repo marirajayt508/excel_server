@@ -22,7 +22,7 @@ app.post('/download', (req, res) => {
   const worksheet = workbook.addWorksheet('B2B');
 
   const data = req.body.datas
-
+// console.log(data)
   const columns = [
     { header: 'Supplier Name', key: 'sn', width: 25 },
     { header: 'GSTIN of Supplier', key: 'gstin', width: 25 },
